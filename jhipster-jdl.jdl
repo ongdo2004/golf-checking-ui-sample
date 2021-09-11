@@ -1,0 +1,61 @@
+enum SEX {
+	MALE
+    FEMALE
+    UNKNOWN
+}
+
+enum TravelInfomation {
+	AIR_FLY
+    SHIP
+    CAR
+    OTHER
+}
+
+entity Customer {
+	id String required maxlength(50)
+	username String required maxlength(50)
+	fullName String required maxlength(100)
+	birthDay LocalDate required
+    sex SEX required
+    passportNo String maxlength(100) required
+    addressContact String maxlength(500) required
+    telephoneNo String maxlength(50) required
+    email String maxlength(100) required
+    
+    
+    //thông tin khai bao default;
+    travelInfo TravelInfomation required
+    travelInfoOther String maxlength(500)
+    vehicleNo String maxlength(500) required
+    chairNo String maxlength(500)
+    departureDate LocalDate required
+    entryDate LocalDate required
+    departurePlace String maxlength(500)
+    entryPlace String maxlength(500)
+    visitedCountryIn14Days String maxlength(50)
+    addressContact String maxlength(500) required
+    declareForCustomerId String maxlength(50) required
+}
+
+entity MedicalDeclaration {
+    departureDate LocalDate required
+	id String required maxlength(50)
+    travelInfo TravelInfomation required
+    travelInfoOther String maxlength(500)
+    vehicleNo String maxlength(500) required
+    chairNo String maxlength(500)
+    entryDate LocalDate required
+    departurePlace String maxlength(500)
+    entryPlace String maxlength(500)
+    visitedCountryIn14Days String maxlength(50)
+    addressContact String maxlength(500) required
+    declareForCustomerId String maxlength(50) required
+	checkInTime Instant
+}
+
+
+
+// Set pagination options
+paginate Customer with infinite-scroll
+paginate MedicalDeclaration with infinite-scroll
+
