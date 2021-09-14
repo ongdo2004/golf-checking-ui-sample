@@ -1,0 +1,35 @@
+{
+  "golfCheckingUiApp": {
+    "medicalDeclaration": {
+      "home": {
+        "title": "Medical Declarations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Medical Declaration",
+        "createOrEditLabel": "Create or edit a Medical Declaration",
+        "notFound": "No Medical Declarations found"
+      },
+      "created": "A new Medical Declaration is created with identifier {{ param }}",
+      "updated": "A Medical Declaration is updated with identifier {{ param }}",
+      "deleted": "A Medical Declaration is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Medical Declaration {{ id }}?"
+      },
+      "detail": {
+        "title": "Medical Declaration"
+      },
+      "departureDate": "Departure Date",
+      "id": "Id",
+      "travelInfo": "Travel Info",
+      "travelInfoOther": "Travel Info Other",
+      "vehicleNo": "Vehicle No",
+      "chairNo": "Chair No",
+      "entryDate": "Entry Date",
+      "departurePlace": "Departure Place",
+      "entryPlace": "Entry Place",
+      "visitedCountryIn14Days": "Visited Country In 14 Days",
+      "addressContact": "Address Contact",
+      "declareForCustomerId": "Declare For Customer Id",
+      "checkInTime": "Check In Time"
+    }
+  }
+}

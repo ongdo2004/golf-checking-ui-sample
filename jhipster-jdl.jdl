@@ -21,8 +21,8 @@ entity Customer {
     addressContact String maxlength(500) required
     telephoneNo String maxlength(50) required
     email String maxlength(100) required
-    
-    
+
+
     //thông tin khai bao default;
     travelInfo TravelInfomation required
     travelInfoOther String maxlength(500)
@@ -58,4 +58,6 @@ entity MedicalDeclaration {
 // Set pagination options
 paginate Customer with infinite-scroll
 paginate MedicalDeclaration with infinite-scroll
+
+filter Customer
 

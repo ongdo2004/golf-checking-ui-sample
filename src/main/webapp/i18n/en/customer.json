@@ -1,0 +1,41 @@
+{
+  "golfCheckingUiApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Customer",
+        "createOrEditLabel": "Create or edit a Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "A new Customer is created with identifier {{ param }}",
+      "updated": "A Customer is updated with identifier {{ param }}",
+      "deleted": "A Customer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "Id",
+      "username": "Username",
+      "fullName": "Full Name",
+      "birthDay": "Birth Day",
+      "sex": "Sex",
+      "passportNo": "Passport No",
+      "addressContact": "Address Contact",
+      "telephoneNo": "Telephone No",
+      "email": "Email",
+      "travelInfo": "Travel Info",
+      "travelInfoOther": "Travel Info Other",
+      "vehicleNo": "Vehicle No",
+      "chairNo": "Chair No",
+      "departureDate": "Departure Date",
+      "entryDate": "Entry Date",
+      "departurePlace": "Departure Place",
+      "entryPlace": "Entry Place",
+      "visitedCountryIn14Days": "Visited Country In 14 Days",
+      "declareForCustomerId": "Declare For Customer Id"
+    }
+  }
+}

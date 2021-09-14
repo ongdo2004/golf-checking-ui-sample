@@ -1,0 +1,10 @@
+{
+  "golfCheckingUiApp": {
+    "SEX": {
+      "null": "",
+      "MALE": "MALE",
+      "FEMALE": "FEMALE",
+      "UNKNOWN": "UNKNOWN"
+    }
+  }
+}

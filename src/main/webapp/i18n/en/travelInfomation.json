@@ -1,0 +1,11 @@
+{
+  "golfCheckingUiApp": {
+    "TravelInfomation": {
+      "null": "",
+      "AIR_FLY": "AIR_FLY",
+      "SHIP": "SHIP",
+      "CAR": "CAR",
+      "OTHER": "OTHER"
+    }
+  }
+}
